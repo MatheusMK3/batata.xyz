@@ -1,0 +1,10 @@
+# Remove o www
+http://www.batata.xyz/* https://batata.xyz/:splat 301!
+https://www.batata.xyz/* https://batata.xyz/:splat 301!
+
+# HTTP -> HTTPS
+http://batata.xyz/* https://batata.xyz/:splat 301!
+
+# Netlify -> Domínio
+http://batata-xyz.netlify.com/* https://batata.xyz/:splat 301!
+https://batata-xyz.netlify.com/* https://batata.xyz/:splat 301!
